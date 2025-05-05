@@ -125,7 +125,7 @@ function Navbar() {
         {/* logo */}
         <div>
           <a href="">
-            <img src="/logo.svg" alt="logo" />
+            <img src="./logo.svg" alt="logo" />
           </a>
         </div>
 
