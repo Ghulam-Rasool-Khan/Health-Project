@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { CiMenuBurger } from "react-icons/ci";
 import {motion} from 'framer-motion'
+import logo from '/logo.svg';
 
 
 function Navbar() {
@@ -125,7 +126,9 @@ function Navbar() {
         {/* logo */}
         <div>
           <a href="">
-            <img src="./logo.svg" alt="logo" />
+            {/* <img src="./logo.svg" alt="logo" /> */}
+            <img src={logo} alt="logo" />
+
           </a>
         </div>
 
